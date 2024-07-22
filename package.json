@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "deltamix",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@mui/styles": "^5.16.4",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "flexslider": "^2.7.2",
+    "jquery": "^3.7.1",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.3.1",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-multi-carousel": "^2.8.5",
+    "react-responsive-carousel": "^3.2.23",
+    "swiper": "^11.1.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bootstrap": "^5.2.10",
+    "@types/jquery": "^3.5.30",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
   }
 }
