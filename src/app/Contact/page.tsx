@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from '../Component/Header'
-import BottomSlider from '../Component/BottomSlider'
-import Footer from '../Component/Footer'
+import Header from '../../Component/Header'
+import BottomSlider from '../../Component/BottomSlider'
+import Footer from '../../Component/Footer'
 
 
 function Contact() {
