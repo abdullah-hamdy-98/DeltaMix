@@ -1,7 +1,60 @@
+"use client"
 import Link from 'next/link';
-
+import { useEffect } from 'react';
+import $ from 'jquery';
 
 function NavBar() {
+    useEffect(() => {
+        var sys = {
+            window: {
+                lang: $('html').attr('lang'),
+                direction: $('html').attr('dir'),
+                width: (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth),
+                height: (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight)
+            }
+        };
+
+        $('.app101-general-menu').each(function () {
+            $('li ul', $(this)).each(function () {
+                $(this).parents('li').addClass('expandable');
+            });
+        });
+
+        $('.expandable').each(function () {
+            $('> ul', $(this)).slideUp(0);
+            $(this).removeClass('expanded');
+            $(this).addClass('collapsed');
+        });
+
+        $('body').on('click', '.expandable > span', function () {
+            if (sys.window.width < 768) {
+                $('> ul', $(this).parents('li')).slideToggle(function () {
+                    if ($(this).css('display') === 'block') {
+                        $(this).parents('li').removeClass('collapsed');
+                        $(this).parents('li').addClass('expanded');
+                    } else {
+                        $(this).parents('li').removeClass('expanded');
+                        $(this).parents('li').addClass('collapsed');
+                    }
+                });
+            }
+        });
+
+        $(window).resize(function () {
+            sys.window.width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
+            sys.window.height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+            $('.expandable').each(function () {
+                $('ul', $(this))[0].style.display = '';
+            });
+        });
+
+        // Clean up on unmount
+        return () => {
+            $('body').off('click', '.expandable > span');
+            $(window).off('resize');
+        };
+    }, []);
+
     return (
         <div className="container">
             <div className="row">
@@ -55,8 +108,11 @@ function NavBar() {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
 
 export default NavBar;
+
+
