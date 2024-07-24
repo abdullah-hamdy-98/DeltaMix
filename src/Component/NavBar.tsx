@@ -27,18 +27,18 @@ function NavBar() {
                                 </ul>
                             </li>
                             <li className="grid "><Link className="nav-link" href="/Careers">الوظائف</Link></li>
-                            <li className="grid "><a className="nav-link" href="#pages/view/17.html">أخبارنا</a></li>
+                            <li className="grid "><Link className="nav-link" href="/News">أخبارنا</Link></li>
                             <li className="grid "><span>المشروعات</span>
                                 <ul>
-                                    <li className="grid "><a className="nav-link" href="#projects/index/-1.html">المشروعات السابقة</a></li>
-                                    <li className="grid "><a className="nav-link" href="#projects/index/1.html">المشروعات اللاحقة</a></li>
+                                    <li className="grid "><Link className="nav-link" href="/Projects/Last">المشروعات السابقة</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/Projects/Coming">المشروعات اللاحقة</Link></li>
                                 </ul>
                             </li>
                             <li className="grid "><span>مصنع الطوب الأسمنتي الخفيف</span>
                                 <ul>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/28.html">الطوب الخفيف</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/29.html">مميزات المنتج</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/30.html">منتج الخرسانة الخفيفة</a></li>
+                                    <li className="grid "><Link className="nav-link" href="/BrickFactory/LightBrick">الطوب الخفيف</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/BrickFactory/Features">مميزات المنتج</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/BrickFactory/Concrete">منتج الخرسانة الخفيفة</Link></li>
                                 </ul>
                             </li>
                             <li className="grid "> <Link className="nav-link" href="/Contact">إتصل بنا</Link> </li>

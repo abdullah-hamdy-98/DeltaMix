@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link';
+
 
 function LastNews() {
     return (
@@ -16,14 +18,14 @@ function LastNews() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-news">
                                                 <div className="app101-news-image">
-                                                    <a href="pages/view/17"><img src="/content/photo/17/5756accc903f8.jpg" alt="" /></a>
+                                                <Link href="/News"><img src="/content/photo/17/5756accc903f8.jpg" alt="" /></Link>
                                                 </div>
                                                 <div className="app101-news-date">
                                                     <span>2016-06-07</span>
                                                 </div>
                                                 <div className="app101-news-details">
                                                     <div className="app101-news-title">
-                                                        <a href="pages/view/17"><span>إفتتاح محطة دلتا ميكس 2 (كفر الزيات)</span></a>
+                                                        <Link href="/News"><span>إفتتاح محطة دلتا ميكس 2 (كفر الزيات)</span></Link>
                                                     </div>
                                                 </div>
                                             </div>

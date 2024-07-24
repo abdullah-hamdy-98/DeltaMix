@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Link from 'next/link';
+
 function station() {
     return (
         <div className="container">
@@ -15,14 +16,14 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/2"><img src="/product/photo/2/vga_back07.jpg" alt="" /></a>
+                                                    <Link href="/Station/Stations/view/Defra" ><img src="/product/photo/2/vga_back07.jpg" alt="" /></Link>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
-                                                        <a href="products/view/2"><span>محطة دفرة</span></a>
+                                                        <Link href="/Station/Stations/view/Defra"><span>محطة دفرة</span></Link>
                                                     </div>
                                                     <div className="app101-product-category">
-                                                        <a href="products/view/2"><span></span></a>
+                                                        <Link href="/Station/Stations/view/Defra"><span></span></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -30,14 +31,14 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/11"><img src="/product/photo/11/vga_back03.jpg" alt="" /></a>
+                                                    <Link href="/Station/Stations/view/KafrZayat"><img src="/product/photo/11/vga_back03.jpg" alt="" /></Link>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
-                                                        <a href="products/view/11"><span>محطة كفر الزيات</span></a>
+                                                        <Link href="/Station/Stations/view/KafrZayat"><span>محطة كفر الزيات</span></Link>
                                                     </div>
                                                     <div className="app101-product-category">
-                                                        <a href="products/view/11"><span></span></a>
+                                                        <Link href="/Station/Stations/view/KafrZayat"><span></span></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -45,14 +46,14 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/14"><img src="/product/photo/14/vga_back05.jpg" alt="" /></a>
+                                                    <Link href="/Station/Stations/view/Labs"><img src="/product/photo/14/vga_back05.jpg" alt="" /></Link>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
-                                                        <a href="products/view/14"><span>المعمل </span></a>
+                                                        <Link href="/Station/Stations/view/Labs"><span>المعمل </span></Link>
                                                     </div>
                                                     <div className="app101-product-category">
-                                                        <a href="products/view/14"><span></span></a>
+                                                        <Link href="/Station/Stations/view/Labs"><span></span></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -60,14 +61,14 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/15"><img src="/product/photo/15/vga_back09_6_2.jpg" alt="" /></a>
+                                                    <Link href="/Station/Stations/view/Equipments"><img src="/product/photo/15/vga_back09_6_2.jpg" alt="" /></Link>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
-                                                        <a href="products/view/15"><span>المعدات</span></a>
+                                                        <Link href="/Station/Stations/view/Equipments"><span>المعدات</span></Link>
                                                     </div>
                                                     <div className="app101-product-category">
-                                                        <a href="products/view/15"><span></span></a>
+                                                        <Link href="/Station/Stations/view/Equipments"><span></span></Link>
                                                     </div>
                                                 </div>
                                             </div>
