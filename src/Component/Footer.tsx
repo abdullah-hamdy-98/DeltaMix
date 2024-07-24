@@ -2,6 +2,8 @@ import Image from 'next/image'
 
 function Footer() {
     return (
+        <>
+        <div className='app101-space'></div>
         <div className="container-fluid app101-general-coloredBG">
             <div className="app101-general-partners">
                 <div className="row">
@@ -33,6 +35,7 @@ function Footer() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

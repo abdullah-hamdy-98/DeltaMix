@@ -26,7 +26,7 @@ function NavBar() {
                                     <li className="grid "><Link className="nav-link" href="/Station/Stations">المحطات</Link></li>
                                 </ul>
                             </li>
-                            <li className="grid "><a className="nav-link" href="careers.html">الوظائف</a></li>
+                            <li className="grid "><Link className="nav-link" href="/Careers">الوظائف</Link></li>
                             <li className="grid "><a className="nav-link" href="#pages/view/17.html">أخبارنا</a></li>
                             <li className="grid "><span>المشروعات</span>
                                 <ul>

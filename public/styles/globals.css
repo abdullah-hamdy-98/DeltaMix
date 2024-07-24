@@ -367,7 +367,7 @@ nav .pagination {
     list-style: none;
     overflow: hidden;
     width: 100%;
-    padding: 0;
+    padding-top: 10px;
     margin: 0;
 }
 
@@ -415,10 +415,12 @@ nav .pagination {
 [dir="rtl"] .app101-general-copyrights {
     text-align: left;
 }
-
+.app101-space{
+    padding-top: 20px;
+}
 .app101-general-partners {
-    margin: 16px 0 0;
-    padding: 20px;
+    
+    padding: 15px;
 }
 
 .app101-general-partners-title {

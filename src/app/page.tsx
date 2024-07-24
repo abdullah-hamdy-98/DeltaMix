@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import Header from '../Component/Header'
 import TopSlider from '../Component/TopSlider'
 import Satation from '../Component/Sattion'
