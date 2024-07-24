@@ -2,7 +2,7 @@ import Header from '../../../Component/Header'
 import BottomSlider from '../../../Component/BottomSlider'
 import Footer from '../../../Component/Footer'
 
-function Equipment() {
+function Lab() {
     return (
         <>
             <Header></Header>
@@ -41,4 +41,4 @@ function Equipment() {
 
     )
 }
-export default Equipment;
+export default Lab;
