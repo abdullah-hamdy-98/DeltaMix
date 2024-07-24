@@ -20,10 +20,10 @@ function NavBar() {
                             </li>
                             <li className="grid "><span>المحطات </span>
                                 <ul>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/10.html">المعدات</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/14.html">المواد الخام </a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/15.html">المعمل </a></li>
-                                    <li className="grid "><a className="nav-link" href="/products/products.html">المحطات</a></li>
+                                    <li className="grid "><Link className="nav-link" href="/Station/Equipment">المعدات</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/Station/RawMaterials">المواد الخام </Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/Station/Lab">المعمل </Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/Station/Stations">المحطات</Link></li>
                                 </ul>
                             </li>
                             <li className="grid "><a className="nav-link" href="careers.html">الوظائف</a></li>
