@@ -15,7 +15,7 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/2"><Image width={650} height={250} src="/product/photo/2/vga_back07.jpg" alt="" /></a>
+                                                    <a href="products/view/2"><img src="/product/photo/2/vga_back07.jpg" alt="" /></a>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
@@ -30,7 +30,7 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/11"><Image width={650} height={250} src="/product/photo/11/vga_back03.jpg" alt="" /></a>
+                                                    <a href="products/view/11"><img src="/product/photo/11/vga_back03.jpg" alt="" /></a>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
@@ -45,7 +45,7 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/14"><Image width={650} height={250} src="/product/photo/14/vga_back05.jpg" alt="" /></a>
+                                                    <a href="products/view/14"><img src="/product/photo/14/vga_back05.jpg" alt="" /></a>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">
@@ -60,7 +60,7 @@ function station() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-product">
                                                 <div className="app101-product-image">
-                                                    <a href="products/view/15"><Image width={650} height={250} src="/product/photo/15/vga_back09_6_2.jpg" alt="" /></a>
+                                                    <a href="products/view/15"><img src="/product/photo/15/vga_back09_6_2.jpg" alt="" /></a>
                                                 </div>
                                                 <div className="app101-product-details">
                                                     <div className="app101-product-name">

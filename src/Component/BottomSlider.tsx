@@ -1,7 +1,7 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image'
-import { Autoplay,  Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -14,10 +14,10 @@ function BottomSlider() {
                     <div className="app101-general-ads">
                         <div className="owl-carousel" id="owl-ads">
                             <Swiper
-                                modules={[Autoplay,Pagination ]}
+                                modules={[Autoplay, Pagination]}
                                 spaceBetween={20}
                                 slidesPerView={1}
-                                
+
                                 pagination={{ clickable: true }}
                                 autoplay={{ delay: 3000 }}
                             >
