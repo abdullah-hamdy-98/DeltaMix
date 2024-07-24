@@ -16,7 +16,7 @@ function LastNews() {
                                         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="app101-news">
                                                 <div className="app101-news-image">
-                                                    <a href="pages/view/17"><Image height={250} width={950} src="/content/photo/17/5756accc903f8.jpg" alt="" /></a>
+                                                    <a href="pages/view/17"><Image height={220} width={950} src="/content/photo/17/5756accc903f8.jpg" alt="" /></a>
                                                 </div>
                                                 <div className="app101-news-date">
                                                     <span>2016-06-07</span>

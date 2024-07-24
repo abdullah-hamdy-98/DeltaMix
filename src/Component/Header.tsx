@@ -14,17 +14,17 @@ function Header() {
             <div className="app101-general-companies theme01">
               <ul>
                 <li><a target="_blank" href="http://contracting.eamaraldelta.com/">
-                  <Image width={114} height={464} src="/menu_item/photo/9/eamar-moawlat.png" alt="" /></a></li>
+                  <Image width={100} height={468} src="/menu_item/photo/9/eamar-moawlat.png" alt="" /></a></li>
                 <li><Link  target="_self" href="/"> 
-                  <Image width={114} height={464} src="/menu_item/photo/10/delta-mix.png" alt="" /></Link></li>
+                  <Image width={105} height={468} src="/menu_item/photo/10/delta-mix.png" alt="" /></Link></li>
                 <li><a target="_blank" href="http://bluelight.eamaraldelta.com/">
-                  <Image width={114} height={464} src="/menu_item/photo/13/eamar-blue-light.png" alt="" /></a></li>
+                  <Image width={95} height={468} src="/menu_item/photo/13/eamar-blue-light.png" alt="" /></a></li>
                 <li><a target="_blank" href="http://eamaraldelta.com/index">
-                  <Image width={114} height={464} src="/menu_item/photo/31/eamar-eldelta-blue.png" alt="" /></a></li>
+                  <Image width={90} height={468} src="/menu_item/photo/31/eamar-eldelta-blue.png" alt="" /></a></li>
                 <li><a target="_blank" href="http://eamarmix.eamaraldelta.com/">
-                  <Image width={114} height={464} src="/menu_item/photo/11/eamar-tashteb_edited.png" alt="" /></a></li>
+                  <Image width={130} height={468} src="/menu_item/photo/11/eamar-tashteb_edited.png" alt="" /></a></li>
                 <li><a target="_blank" href="http://ebdaa.eamaraldelta.com/">
-                  <Image width={114} height={464} src="/menu_item/photo/12/eamar-ebdaa.png" alt="" /></a></li>
+                  <Image width={120} height={468} src="/menu_item/photo/12/eamar-ebdaa.png" alt="" /></a></li>
               </ul>
             </div>
           </div>

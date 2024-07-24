@@ -11,8 +11,8 @@ function NavBar() {
                             <li className="grid ">  <Link href="/">الرئيسية</Link></li>
                             <li className="grid "><span>عن الشركه</span>
                                 <ul>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/11.html">الاشراف والانتاج</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/13.html">امكانيات الشركه</a></li>
+                                    <li className="grid "><Link className="nav-link" href="/About/Production">الاشراف والانتاج</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/About/Capacity">امكانيات الشركه</Link></li>
                                     <li className="grid "><a className="nav-link" href="/pages/view/19.html">كلمة رئيس مجلس الإدارة</a></li>
                                     <li className="grid "><a className="nav-link" href="/pages/view/25.html">الهيكل الوظيفي</a></li>
                                     <li className="grid "><a className="nav-link" href="/pages/view/26.html">إدارة الجوده</a></li>
@@ -42,7 +42,7 @@ function NavBar() {
                                 </ul>
                             </li>
                             <li className="grid "> <Link className="nav-link" href="/Contact">إتصل بنا</Link> </li>
-                            
+
                         </ul>
                     </div>
                 </div>
