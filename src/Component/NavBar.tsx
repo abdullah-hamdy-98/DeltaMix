@@ -13,9 +13,9 @@ function NavBar() {
                                 <ul>
                                     <li className="grid "><Link className="nav-link" href="/About/Production">الاشراف والانتاج</Link></li>
                                     <li className="grid "><Link className="nav-link" href="/About/Capacity">امكانيات الشركه</Link></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/19.html">كلمة رئيس مجلس الإدارة</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/25.html">الهيكل الوظيفي</a></li>
-                                    <li className="grid "><a className="nav-link" href="/pages/view/26.html">إدارة الجوده</a></li>
+                                    <li className="grid "><Link className="nav-link" href="/About/Message">كلمة رئيس مجلس الإدارة</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/About/JobStructure">الهيكل الوظيفي</Link></li>
+                                    <li className="grid "><Link className="nav-link" href="/About/QManagement">إدارة الجوده</Link></li>
                                 </ul>
                             </li>
                             <li className="grid "><span>المحطات </span>
