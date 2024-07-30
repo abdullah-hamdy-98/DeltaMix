@@ -3,15 +3,32 @@ body {
     color: white;
 }
 
-svg {
+.svg {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search-bar {
     position: relative;
     left: 50px;
     width: 25px;
+    cursor: pointer;
 }
+
+.toggle-btn{
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+ }
 
 .sitelogo{
     position: relative;
-    right: 50px;
+    right: 60px;
+    top: 5%;
 }
 
 header { 
@@ -186,10 +203,11 @@ header .menu .grid:hover {
 .thumbnail .item {
     width: 150px;
     height: 90px;
-    filter: brightness(0.3);
+    filter: opacity(0.7);
+    filter: brightness(0.25);
     transition: 0.5s;
     flex-shrink: 0;
-    opacity: 0.5;
+   
 }
 
 .thumbnail .item img {
@@ -202,7 +220,8 @@ header .menu .grid:hover {
 }
 
 .thumbnail .item.active {
-    filter: brightness(1.1);
+    filter: opacity(1);
+    filter: brightness(1);
 }
 
 .thumbnail .item .content {
@@ -210,15 +229,60 @@ header .menu .grid:hover {
     inset: auto 10px 10px 10px;
 }
 
-@media screen and (max-width: 678px) {
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    left: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter : blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dropdown_menu.open{
+    height: 240px;
+}
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    header .menu ,.search-bar {
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+
+    }
     .thumbnail {
         justify-content: start;
+        top: 650px;
+
     }
     .hero-slider .slider-list .item .content h2 {
         font-size: 60px;
     }
     .arrows {
-        top: 10%;
+        bottom: 5%;
+    }
+    .dropdown_menu{
+        display: block;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .dropdown_menu{
+        right: 1rem;
+        width: unset;
+    }
+}
