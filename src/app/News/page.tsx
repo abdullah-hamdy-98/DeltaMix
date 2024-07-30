@@ -128,10 +128,10 @@ function News() {
                 </div>
             </div>
             {/* arrows */}
-            <div className='arrows'>
+            {/* <div className='arrows'>
                 <span><button id="prev"> &lt; </button></span>
                 <span> <button id="next"> &gt; </button></span>
-            </div>
+            </div> */}
             {/* thumbnail */}
             <div className="thumbnail">
                 <div className="item active">

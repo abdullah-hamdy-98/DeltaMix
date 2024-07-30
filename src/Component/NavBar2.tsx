@@ -25,7 +25,7 @@ function NavBar2() {
             <div className='header-background'>
                 <header>
                     <div className='sitelogo'>
-                        <Image width={180} height={38} src='/data/images/companies/site-logo.png' alt='Site Logo' />
+                        <Link href='/'><Image width={180} height={38} src='/data/images/companies/site-logo.png' alt='Site Logo' /></Link>
                     </div>
                     <div className='Navbar-test'>
                         <ul className='menu'>

@@ -27,7 +27,7 @@ body {
 
 .sitelogo{
     position: relative;
-    right: 60px;
+    right: 80px;
     top: 5%;
 }
 
@@ -165,17 +165,18 @@ header .menu .grid:hover {
     background-color: rgba(238, 229, 229, 0.42);
     border: none;
     font-family: monospace;
-    width: 30px;
+    width: 26px;
     height: 30px;
     border-radius: 5px;
     font-size: x-large;
     color: white;
     transition: 0.5s;
     margin: 2px;
+    opacity: 0;
 }
 
 .arrows button:hover {
-    background-color: rgba(255, 255, 255, 0.672);
+    background-color: rgba(255, 255, 255, 0.512);
     color: black;
 }
 
@@ -201,10 +202,10 @@ header .menu .grid:hover {
 }
 
 .thumbnail .item {
-    width: 150px;
+    width: 130px;
     height: 90px;
     filter: opacity(0.7);
-    filter: brightness(0.25);
+    filter: brightness(0.20);
     transition: 0.5s;
     flex-shrink: 0;
    
