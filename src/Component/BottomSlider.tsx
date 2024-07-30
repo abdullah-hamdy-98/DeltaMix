@@ -1,6 +1,5 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from 'next/image'
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -21,9 +20,9 @@ function BottomSlider() {
                                 pagination={{ clickable: true }}
                                 autoplay={{ delay: 3000 }}
                             >
-                                <SwiperSlide> <Image width={1140} height={240} src="/slide/photo/1/ads_1.png" alt="" /> </SwiperSlide>
-                                <SwiperSlide> <Image width={1140} height={240} src="/slide/photo/19/ads_2.png" alt="" /> </SwiperSlide>
-                                <SwiperSlide> <Image width={1140} height={240} src="/slide/photo/22/web.png" alt="" /> </SwiperSlide>
+                                <SwiperSlide> <img src="/slide/photo/1/ads_1.png" alt="" /> </SwiperSlide>
+                                <SwiperSlide> <img src="/slide/photo/19/ads_2.png" alt="" /> </SwiperSlide>
+                                <SwiperSlide> <img src="/slide/photo/22/web.png" alt="" /> </SwiperSlide>
                             </Swiper>
                         </div>
                     </div>
